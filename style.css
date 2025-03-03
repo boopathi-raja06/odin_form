@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }.bg{
-    min-width: 40%;
+    max-width: 40%;
     height:100vh;
-
-    background-color:rgb(212, 193, 193);
+    background-image: url(https://wallpapercave.com/wp/wp5838588.jpg);
+    background-position:top;
+    background-size: cover;
 }
 .container{
     display:flex;
@@ -17,19 +18,19 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30vh;
-    background-color: azure;
-    opacity: 0.7;
+    margin-top: 20vh;
+    
+    gap: 10px;
     width:100%;
 }
 .bg-logo img{
- 
+    opacity: 1;
     width:30%;
     height:40%;
-
+    border-radius:10PX 40PX 30PX 40PX; 
 }
 .bg-logo p{
-
+    color:white;
     font-size: 3rem;
 }
 .main{
@@ -38,7 +39,7 @@
     align-items: center ;
     width:100%;
     gap:10%;
-    background-color: blanchedalmond;
+    background-color: rgb(78, 78, 77);
 }
 .main>.text{
     margin-top: 20%;
