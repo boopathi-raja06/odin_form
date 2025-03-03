@@ -17,41 +17,42 @@
     <div class="main">
         <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A soluta quo non. Vitae optio impedit facere culpa reprehenderit, quibusdam, nostrum doloribus velit iusto facilis voluptas odit dolor? Quae, dolorem reprehenderit?</div>
         <div class="form">
-            <h2 style="margin-left: -20%;font-size: xx-large;">This is a Form</h2>
+            <h2 style="margin-left: 20%;font-size: xx-large;">This is a Form</h2>
             <form action="#">
            
             <div class="in">
                 <label for="firstname">FIRST NAME</label><br>
-                <input type="text" id="firstname">
+                <input type="text" id="firstname" required>
             </div>
             <div class="in">
                 <label for="lastname">LASTNAME</label>
                 <br>
-                <input type="text" id="lastname">
+                <input type="text" id="lastname" required>
             </div>
             <div class="in">
                 <label for="email">E-MAIL</label>
                 <br>
-                <input type="email" id="email">
+                <input type="email" id="email" required>
             </div>
             <div class="in">
                 <label for="ph-num">PHONE NUMBER</label><br>
-                <input type="number" id="ph-num">
+                <input type="number" size="10" id="ph-num" required>
             </div>
             <div class="in">
                 <label for="password">PASSWORD</label><br>
-                <input type="password" minlength="6" id="password">
+                <input type="password" minlength="6" id="password" required>
             </div>
             <div class="in">
                 <label for="cpassword">CONFIRM PASSWORD</label><br>
-                <input type="password" minlength="6" id="cpassword">
+                <input type="password" minlength="6" id="cpassword" required>
             </div>
+            
+            <button style="padding: 15px;background-color: chartreuse;border-radius: 10px;">CREATE ACCOUNT</button>
+            <p>Alraedy have an account?<a href="#" style="text-decoration: none;">login</a></p>
         </form>
     </div>
-        <div class="end">
-            <button style="padding: 20px;">CREATE ACCOUNT</button>
-            <p>Alraedy have an account?<a href="#" style="text-decoration: none;">login</a></p>
-        </div>
+        
+    
     </div>
     </div>
 </body>
